@@ -20,6 +20,7 @@
   <body>
 
 
+<<<<<<< HEAD
 
  <header >
   <!-- Left: Logo + Sidebar -->
@@ -60,6 +61,73 @@
   <div></div>
 </main>
  
+=======
+<header class="w-full flex justify-between items-center px-4 py-3 max-w-screen-xl mx-auto">
+  <!-- Left: Logo + Hamburger -->
+  <div class="flex items-center justify-between w-full sm:w-auto">
+    <div class="logo w-32 sm:w-40 md:w-48 lg:w-56">
+      <img src="./resources/logo-light.svg" alt="Site Logo" class="w-full h-auto" />
+    </div>
+
+    <!-- Mobile Sidebar Icon -->
+    <div class="sm:hidden ml-4">
+      <img onclick="hamburgerBtn()" src="./resources/hamburger-button.svg" alt="Menu" class="h-6 w-6 cursor-pointer" />
+    </div>
+  </div>
+
+  <!-- Desktop Navigation -->
+  <nav class="hidden sm:flex gap-10 text-lg font-medium">
+    <a href="about.html" class="text-gray-600 hover:text-blue-500 border-b-2 border-transparent hover:border-blue-500 pb-3">About</a>
+    <a href="contact.html" class="text-gray-600 hover:text-blue-500 border-b-2 border-transparent hover:border-blue-500 pb-3">Contact</a>
+    <a href="product.html" class="text-gray-600 hover:text-blue-500 border-b-2 border-transparent hover:border-blue-500 pb-3">Product</a>
+    <a href="resource.html" class="text-gray-600 hover:text-blue-500 border-b-2 border-transparent hover:border-blue-500 pb-3">Resource</a>
+  </nav>
+
+  <!-- Mode toggle icons -->
+  <div class="hidden sm:flex items-center gap-4 cursor-pointer">
+    <img src="./resources/Sun_fill.svg" alt="Light Mode" class="w-4" />
+    <img src="./resources/Moon_fill.svg" alt="Dark Mode" class="w-4" />
+  </div>
+</header>
+
+<!-- Mobile menu (hidden by default) -->
+<ul class="small hidden flex-col  p-4 absolute top-16 right-4 bg-white shadow-lg rounded-md text-lg font-medium sm:hidden">
+  <a href="about.html" class="text-gray-600 hover:text-blue-500">About</a>
+  <a href="contact.html" class="text-gray-600 hover:text-blue-500">Contact</a>
+  <a href="product.html" class="text-gray-600 hover:text-blue-500">Product</a>
+  <a href="resource.html" class="text-gray-600 hover:text-blue-500">Resource</a>
+</ul>
+
+<main class="w-full max-w-screen-xl mx-auto flex flex-col-reverse sm:flex-row sm:justify-between px-4">
+  <!-- Left Section -->
+  <div class="w-full sm:w-1/2 mt-10 text-left mb-4">
+    <p>😎 Simple way to communicate</p>
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">Actions for Accessibility in Design</h1>
+    <p class="text-lg sm:text-xl mt-4">
+      The fastest way to build and deploy websites with reusable components.
+    </p>
+
+    <div class="flex gap-4 mt-5">
+      <button class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg">Get started</button>
+      <button class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg">Get live demo</button>
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-4 mt-5">
+      <p class="flex items-center gap-2"><img src="./resources/Done_ring_round_fill.svg" alt=""> No credit card required</p>
+      <p class="flex items-center gap-2"><img src="./resources/Done_ring_round_fill.svg" alt=""> No software to install</p>
+    </div>
+  </div>
+
+  <!-- Right Section -->
+  <div class="w-full sm:w-1/2 flex justify-center items-center mt-10">
+    <img class="hidden sm:block max-w-md" src="./resources/hero-image-simple-homepage.png" alt="">
+    <img class="sm:hidden max-w-xs" src="./resources/hero-image-simple-homepage@2x.png" alt="">
+  </div>
+</main>
+
+
+
+>>>>>>> 78b1b80 (home page)
 
     <!-- 
  <div class="flex items-center justify-between w-full">
@@ -112,6 +180,7 @@
 
     -->
 
+<<<<<<< HEAD
     <div class="author-info">
       Coded by <a href="#">Your Name Here</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
@@ -119,5 +188,20 @@
       >.
     </div>
     <script src="tailwind.config.js"></script>
+=======
+  
+    <script src="tailwind.config.js"></script>
+    <script>
+    const small = document.querySelector(".small")
+
+
+function hamburgerBtn() {
+  small.classList.toggle("hidden");
+}
+small.classList.add("hidden");    // Force hidden
+small.classList.remove("hidden"); // Force visible
+small.classList.toggle("hidden")
+    </script>
+>>>>>>> 78b1b80 (home page)
   </body>
 </html>

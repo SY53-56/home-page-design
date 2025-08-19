@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DevChallenges.io - Simple Homepage
 
 ![Thumbnail for the Simple Homepage coding challenge](./thumbnail.jpg)
@@ -96,3 +97,5 @@ We value feedback and are always looking to improve our challenges and platform.
 This challenge is completely free. Please share it with anyone who would find it useful for practice.
 
 **Enjoy building!** 🚀
+=======
+>>>>>>> 78b1b80 (home page)
